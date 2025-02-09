@@ -44,6 +44,6 @@ app.post("/sendPayload",async (req,res)=>{
 })
 
 
-httpServer.listen(3000,()=>{
-    console.log("sErver is running on port 3000");
+httpServer.listen(3001,()=>{
+    console.log("server is running on port 3001");
 });
